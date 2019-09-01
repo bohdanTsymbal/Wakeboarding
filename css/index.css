@@ -67,6 +67,7 @@
 body {
     font-size: 18px;
     font-family: 'Gilroy Medium';
+    color: #2c2c2c;
 }
 
 li {
@@ -75,7 +76,11 @@ li {
 
 a, a:hover, a:active, a:visited {
     text-decoration: none;
-    color: #000;
+    color: #2c2c2c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ff5e1f;
 }
 
 .wrapper {
@@ -99,4 +104,114 @@ a, a:hover, a:active, a:visited {
 
 a.link.link-active {
     color: #ff5e1f;
+}
+
+.main {
+    padding: 60px 0;
+}
+
+.section {
+    position: relative;
+    height: 530px;
+}
+
+.mainTitle {
+    font-size: 30px;
+    font-family: 'Gilroy Extra Bold';
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.mainImage {
+    width: 100%;
+    z-index: 17;
+}
+
+.mainImage, .img2, .img3, .img4, .img5, .sqrt1, .sqrt2, .sqrt3, .sqrt4, .line1, .line2 {
+    position: absolute;
+}
+
+.img2, .img3, .img4, .img5 {
+    width: 30%;
+    z-index: 1;
+}
+
+.img5 {
+    bottom: 40px;
+    left: 30px;
+    z-index: 3;
+}
+
+.img4 {
+    top: 120px;
+    right: 0;
+    z-index: 18;
+}
+
+.img3 {
+    bottom: 50px;
+    right: 220px;
+    z-index: 13;
+}
+
+.img2 {
+    top: 100px;
+    left: 275px;
+    z-index: 15;
+}
+
+.sqrt1, .sqrt2, .sqrt3, .sqrt4 {
+    background-color: #0f69da;
+}
+
+.sqrt1 {
+    width: 325px;
+    height: 325px;
+    opacity: 0.75;
+    top: 125px;
+    left: 140px;
+    z-index: 16;
+}
+
+.sqrt2 {
+    width: 175px;
+    height: 175px;
+    opacity: 0.5;
+    top: 190px;
+    right: 420px;
+}
+
+.sqrt3 {
+    width: 225px;
+    height: 225px;
+    opacity: 0.75;
+    top: 145px;
+    right: 140px;
+    z-index: 18;
+}
+
+.sqrt4 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    bottom: 40px;
+    right: 20px;
+    z-index: 3;
+}
+
+.line1 {
+    top: 270px;
+    left: 410px;
+    z-index: 16;
+}
+
+.line2 {
+    top: 415px;
+    left: 85px;
+    z-index: 16;
+}
+
+.text {
+    text-align: justify;
+    text-indent: 35px;
 }
