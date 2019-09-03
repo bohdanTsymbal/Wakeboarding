@@ -155,3 +155,7 @@ a.link.link-active {
     font-size: 35px;
     color: #0f69da;
 }
+
+.bold {
+    font-family: 'Gilroy Bold';
+}
